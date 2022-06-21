@@ -1,0 +1,629 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(./media/bg-hero-mobile.svg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.community h2 {
+    width: 10px;
+    background-color: rgb(32, 224, 160);
+}
+
+.text {
+    margin: auto;
+    width: 70%;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: -40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.getstarted {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 5px;
+    width: 60%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: hsl(322, 100%, 66%);
+}
+
+.grow {
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    width: 55%;
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+    box-shadow:
+        inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+.inter {
+    height: 300px;
+    width: 375px;
+    margin-top: 30px;
+}
+
+.lady {
+    height: 300px;
+    width: 375px;
+    margin-top: 30px;
+    margin-bottom: -130px;
+    font-size: 13px;
+}
+
+.textm {
+    margin: auto;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flowing h4 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.flowing {
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    width: 55%;
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+    box-shadow:
+        inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.users {
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 55%;
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+    box-shadow:
+        inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.build p {
+    font-size: 14px;
+    font-weight: 50px;
+}
+
+.build {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 62%;
+    margin-top: 2050px;
+    margin-left: 85px;
+    padding: 10px;
+    height: 100px;
+    box-shadow:
+        inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+.getstartedd {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 5px;
+    width: 80%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: hsl(322, 100%, 66%);
+}
+
+footer {
+    margin-top: 45px;
+    width: 100%;
+    background-color: hsl(192, 100%, 9%)
+}
+
+.logosec {
+    width: 200px;
+    height: 50px;
+    filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+}
+
+.details {
+
+    margin-top: 100px;
+}
+
+.location p {
+    justify-self: center;
+}
+
+.location {
+    display: flex;
+    margin-top: -200px;
+    color: white;
+    margin: auto;
+    margin-top: -20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 70%;
+}
+
+.locationicon {
+    filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+    margin-left: 10px;
+    margin-right: -50px;
+}
+
+.tele p {
+    margin-left: -220px;
+}
+
+.tele {
+    display: flex;
+    color: white;
+    margin: auto;
+    margin-top: -5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 70%;
+}
+
+.teleicon {
+    filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.mailicon {
+    margin-left: 10px;
+    filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+}
+
+.mail p {
+    margin-left: -220px;
+
+}
+
+.mail {
+    display: flex;
+    color: white;
+    margin: auto;
+    margin-top: -5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 70%;
+}
+
+.lastmenu li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.lastmenu {
+    display: flex;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 85%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a :hover {
+    color: brown;
+}
+
+.contactlogo {
+    filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+    margin: auto;
+    display: flex;
+    width: 30%;
+}
+
+.contactlogo svg {
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.contact p {
+    font-weight: 200;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .hero {
+        background-color: hsl(193, 100%, 96%);
+        background-image: url(./media/bg-hero-desktop.svg);
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .hero h3 {
+        width: 270px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .text {
+        width: 40%;
+        font-size: 18px;
+        padding: 10px;
+        margin-top: -40px;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 40px;
+        text-align: left;
+
+
+    }
+
+    .getstarted {
+        font-size: 18px;
+        border-radius: 50px;
+
+        margin-top: -50px;
+        width: 15%;
+        padding: 10px;
+        color: rgb(238, 238, 238);
+        background-color: hsl(322, 100%, 66%);
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 50px;
+    }
+
+    .inter {
+        height: 200px;
+        width: 400px;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 170px;
+    }
+
+    .logo {
+        margin-top: 13px;
+        height: 100px;
+        width: 150px;
+        margin-left: 30px;
+    }
+
+    .community {
+        margin-left: 10px;
+        text-align: left;
+        margin-top: -30px;
+
+
+    }
+
+    .grow {
+        border-radius: 10px;
+        margin: auto;
+        width: 70%;
+        margin-top: 30px;
+        padding: 20px;
+        height: 300px;
+        box-shadow:
+            inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+            0 0 0 2px rgb(255, 255, 255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textm {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+
+        width: 40%;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .lady {
+        height: 400px;
+        width: 475px;
+        margin-top: 60px;
+        margin-bottom: -130px;
+        font-size: 13px;
+        position: absolute;
+        margin-left: 600px;
+    }
+
+    .grow h3 {
+        margin-top: 70px;
+        margin-bottom: -120px;
+        margin-left: 10px;
+    }
+
+    .flowing h4 {
+        font-size: 16px;
+        font-weight: bolder;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10%;
+    }
+
+    .flowing {
+        text-align: center;
+        border-radius: 10px;
+        margin: auto;
+        width: 70%;
+        margin-top: 30px;
+        padding: 20px;
+        height: 300px;
+        box-shadow:
+            inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+            0 0 0 2px rgb(255, 255, 255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    }
+
+    #flowdesk {
+        height: 400px;
+        width: 500px;
+        margin-left: 100px;
+
+    }
+
+    .users {
+        text-align: center;
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 50px;
+        width: 70%;
+        margin-top: 30px;
+        padding: 20px;
+        height: 300px;
+        box-shadow:
+            inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+            0 0 0 2px rgb(255, 255, 255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    }
+
+    .users svg {
+        margin-left: 100px;
+    }
+
+    .users h3 {
+        font-weight: bolder;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10%;
+        font-size: 16px;
+    }
+
+    .build p {
+        font-size: 14px;
+        font-weight: 50px;
+    }
+
+    .build {
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        text-align: center;
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 50px;
+        width: 45%;
+        margin-top: 1650px;
+        margin-left: 350px;
+        padding: 10px;
+        height: 120px;
+        box-shadow:
+            inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+            0 0 0 2px rgb(255, 255, 255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+    }
+
+    .getstartedd {
+        width: 50%;
+    }
+        footer {
+            display: flex;
+            flex-direction: row;
+            height: 500px;
+            
+        }
+    
+        .logosec {
+            width: 200px;
+            height: 70px;
+            filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+        }
+    
+        .details {
+    
+            margin-top: 100px;
+        }
+    
+        .location p {
+            justify-self: center;
+            margin-top: 5px;
+        }
+    
+        .location {
+            display: flex;
+            flex-direction: row;
+            margin-top: -200px;
+            color: white;
+            margin: auto;
+            margin-top: -20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            margin: 50px;
+            margin-bottom: -15px;
+            width: 20%;
+        }
+    
+        .locationicon {
+            filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+            margin-left: -10px;
+            margin-right: -10px;
+            width: 400px;
+        }
+    
+        .tele p {
+                margin-top: 5px;
+                margin-left: -350px;
+        }
+    
+        .tele {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: white;
+            margin: auto;
+            margin-top: -5px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            margin: 40px;
+            width: 13%;
+        }
+    
+        .teleicon {
+            filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+            margin-left: 1px;
+            width: 200px;
+        }
+    
+        .mailicon {
+            margin-left: 1px;
+            filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+            width: 270px;
+            margin-right: -50px;
+        }
+    
+        .mail p {
+            margin-left: -100px;
+    
+        }
+    
+        .mail {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: white;
+            margin-left: 40px;
+            margin-top: -5px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            width: 18%;
+            
+        }
+        }
+        .lastmenu li {
+            list-style: none;
+            margin-bottom: 12px;
+            column-count: 2;
+        }
+    
+        .lastmenu {
+            display: flex;
+            color: white;
+            margin: auto;
+            margin-top: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            width: 85%;
+            margin-top: -100px;
+            background-color: bisque;
+        }
+        ul {
+            -moz-column-gap: 20px;
+            -webkit-column-count: 2;
+            -webkit-column-gap: 20px;
+            column-count: 2;
+            column-gap: 20px;
+            position: absolute;
+            margin-left: 330px;
+            -moz-column-count: 2;
+            margin-top: -150px;
+            
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    
+        a :hover {
+            color: brown;
+        }
+    
+        .contactlogo {
+            filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(20deg) brightness(104%) contrast(103%);
+            margin: auto;
+            display: flex;
+            width: 30%;
+            margin-top: -120px;
+            margin-bottom: 30px;
+        }
+    
+        .contactlogo svg {
+            justify-content: space-evenly;
+            margin: 5px;
+            margin-bottom: 140px;
+        }
+    
+        .contact p {
+            font-weight: 200;
+            font-size: 10px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 10px;
+        }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 900px;
+    }
